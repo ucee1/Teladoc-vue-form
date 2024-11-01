@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", serif;
+}
+.signin-container {
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+.back {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  color: #0078bc;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+.first-section {
+  margin-bottom: 35px;
+}
+.first-section p {
+  font-size: 0.955rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 7px;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  border: 1px solid #ccc;
+}
+input[type="checkbox"] {
+  padding: 10px;
+}
+.form-check {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.forgot-links {
+  text-align: right;
+  margin: 0.5rem 0;
+}
+
+.signin-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #4a2c8d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.signin-button:hover{
+  color: #4a2c8d;
+  background-color: #eee7ff;
+}
+
+.create-account {
+  display: block;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: underline;
+}
+.signin-button {
+  margin-bottom: 20px;
+}
+#dob {
+  color: rgb(183, 183, 183);
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+.footer-links a {
+  margin-right: 1rem;
+  color: #4a2c8d;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width:990px) {
+  .signin-container {
+    max-width: auto;
+    padding: 10px;
+    text-align: left;
+  }
+}
